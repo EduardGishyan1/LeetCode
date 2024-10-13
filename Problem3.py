@@ -1,7 +1,7 @@
 # Contains Duplicate
 
 # Bad example
-# o(n^2)
+# Time Complexity o(n^2)
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -13,7 +13,7 @@ class Solution:
 
 # Good Example
 # Using set
-# o(n)
+# Time Complexity o(n)
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -26,7 +26,7 @@ class Solution:
 
 # Good Example
 # Using dict
-# o(n)
+# Time Complexity o(n)
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
