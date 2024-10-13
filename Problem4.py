@@ -1,6 +1,6 @@
 # Missing Number
 
-# Time Complexity o(n)
+# Time Complexity o(n^2)
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
