@@ -1,5 +1,5 @@
 # Best Time to buy and sell
-
+# Time Complexity o(n)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         maxprofit = 0
