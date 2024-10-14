@@ -11,6 +11,7 @@ class Solution:
                     return [i,j]
 
 # Good solution
+# time complexity o(n)
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
