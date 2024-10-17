@@ -12,7 +12,6 @@ class Solution:
                 for _ in range(len(nums1)-count):
                     nums1.remove(nums1[i])
             count += 1
-        count2 = 0
         for i in range(len(nums2)):
             if count == m:
                 break
@@ -23,3 +22,4 @@ class Solution:
             for j in range(i+1,len(nums1)):
                 if nums1[i] > nums1[j]:
                     nums1[i],nums1[j] = nums1[j],nums1[i]
+            
