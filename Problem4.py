@@ -9,3 +9,12 @@ class Solution:
             if not i in nums:
                 return i
         return length
+
+# Time Complexity o(n)
+
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        length = len(nums)
+        expected_num = length * (length + 1) // 2
+        actual_sum = sum(nums)
+        return expected_num - actual_sum
